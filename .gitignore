@@ -1,4 +1,4 @@
-dist/
+
 .idea/
 test-build/
 package-lock.json

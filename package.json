@@ -23,8 +23,7 @@
     "test": "npm run test:node",
     "test:node": "ts-node node_modules/tape/bin/tape ./test/index.ts",
     "test:browser:build": "tsc && cp ./test/*.json test-build/test/",
-    "test:browser": "npm run test:browser:build && karma start karma.conf.js",
-    "postinstall": "npm run build"
+    "test:browser": "npm run test:browser:build && karma start karma.conf.js"
   },
   "husky": {
     "hooks": {
